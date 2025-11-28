@@ -11,4 +11,5 @@ a:selection {color:gold;}
 blockquote {border-left:white 2px solid;font-weight:bold;}
 
 img, video, audio {max-width:80%;height:auto;}
-header img {max-width:32px;height:auto;}
+header img {margin:auto;max-width:32px;height:auto;float:left;}
+header img:nth-child(2n+1) {float:right;}
