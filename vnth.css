@@ -1,0 +1,12 @@
+body {background-color:#008700;margin:0;color:white;font-size:medium;font-family:sans-serif;}
+header {background-color:#00cc00;margin:0;color:white;font-size:large;font-weight:bold;border-bottom:2px white solid;text-align:center;}
+article {margin:0 auto;color:white;max-width:1200px;}
+footer {background-color:#000000;margin:0;color:white;font-size:small;font-weight:bold;font-style:italic;border-top:2px white solid;text-align:center;}
+
+a {color:white;text-style:underline;}
+a:hover {color:#790099;}
+a:selection {color:gold;}
+
+blockquote {border-left:white 2px solid;font-weight:bold;}
+
+img, video, audio {max-width:80%;height:auto;}
