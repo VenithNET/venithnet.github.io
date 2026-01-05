@@ -1,5 +1,5 @@
 body {background-color:#008700;margin:0;color:white;font-size:medium;font-family:sans-serif;}
-header {background-color:#00cc00;margin:0;color:white;font-size:20px;font-weight:bold;border-bottom:2px white solid;text-align:center;}
+header {background-color:#00cc00;margin:0;color:white;font-size:24px;font-weight:bold;border-bottom:2px white solid;text-align:center;text-decoration:none;}
 article {margin:0 auto;color:white;max-width:1200px;}
 footer {background-color:#000000;margin:0;color:white;font-size:small;font-weight:bold;font-style:italic;border-top:2px white solid;text-align:center;}
 meta {display:none;}
@@ -11,5 +11,5 @@ a:selection {color:gold;}
 blockquote {border-left:white 2px solid;font-weight:bold;}
 
 img, video, audio {max-width:80%;height:auto;}
-header img {margin:auto;max-width:32px;height:auto;float:left;}
+header img {margin:2px;max-width:32px;height:auto;float:left;}
 header img:nth-child(2n+1) {float:right;}
