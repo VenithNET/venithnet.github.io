@@ -1,0 +1,21 @@
+body {background-color:#007700;margin:0;color:white;font-size:medium;font-family:sans-serif;}
+header {background-color:#00aa00;margin:0;color:white;font-size:28px;font-weight:bold;border-bottom:2px white solid;text-align:center;text-decoration:none;}
+article {margin:0 auto;color:white;max-width:1200px;}
+footer {background-color:#000000;margin:0;color:white;font-size:small;font-weight:bold;font-style:italic;border-top:2px white solid;text-align:center;}
+meta {display:none;}
+
+h1.title {background-color:#007700;padding:4px;text-align:center;}
+
+a {color:white;}
+a:hover {color:#790099;}
+a:selection {color:gold;}
+
+blockquote {border-left:white 2px solid;font-weight:bold;}
+hr.sector {max-width:50%;color:white;border:2px white solid;}
+
+table {margin:0 auto;}
+tbody, th, tr {border:2px white solid;}
+
+img, video, audio {max-width:80%;height:auto;}
+header img {margin:2px;max-width:32px;height:auto;float:left;}
+header img:nth-child(2n+1) {float:right;}
