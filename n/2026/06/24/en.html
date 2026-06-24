@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/x-icon" href="/vnth.ico"><link rel="stylesheet" href="/vnth.css"><script src="/vnth.js"></script>
+
+<meta name="author" content="Digital Cheese">
+<meta name="description" content="A new era of Venithia is upon us.">
+<title>Regarding Files... -- Greater Venith</title>
+</head>
+<body>
+<header><a href="/index.html"><img src="/vnth.png"> Venith <img src="/vnth.png"></a></header>
+<article><h1 class="title">Regarding Files...</h1>
+Thumbnails will be used and formats are being experimented with. However, we must figure out an efficient, yet usable system for sub-10kb thumbnails to be guaranteed on modern devices and sub-15kb thumbnails to be guaranteed on legacy devices, since we will likely be limited to 200 megabit for a while.
+<hr>
+I have decided, as your emperor, to do the following:<br>
+1. Rather than have a Venith Forum, Gallery, etc I will merely have a "Venith Social", and this Venith Social will heavily prioritize the arts.<br>
+2. Loading full-size images is impossible, if not for the user than certainly for the server. Therefore, thumbnails will be designed for 960x540 and 1920x1080, with different resolutions being scaled up or down as per necessary.<br>
+3. On legacy devices, I will likely load no more than 50 image posts at a time and force pagination. But on modern devices, at least whenever JavaScript is enabled, I want to mess around with infinite scrolling.<br>
+4. PNG is out for thumbnails despite otherwise being perfect due to bandwidth limitations. JPEG is the best for legacy devices, but it lacks transparency and isn't as efficient as AVIF. AVIF will be used when possible due to smaller sizes, but we'll have JPEG fallbacks. And no, I'm not implementing that unholy hell-spawn which is WebP.<br>
+<br><br>
+Remember, this does NOT affect the actual post. Actual posts will either be unmodified, or losslessly compressed and in multiple formats. Storage is not the issue, bandwidth is. If we can solve our bandwidth issue, I'll actually seriously consider PNG for thumbnails, but in the meantime, JPEG--AVIF instead of PNG-only or AVIF--PNG.
+<br><br>
+I would like to note too, that for non-image and non-text posts, you'll be allowed to upload custom thumbnails up to 8K resolution, but it will obviously be scaled down to 4K, 1080p, and 540p *or* the closest available resolutions in the case of, say, a 1440p thumbnail which'd downscale to 720p and 360p.
+<br><br>
+The file limit is likely to be 25MB, although I will aim to push it to 100MB. Public files will not have a set-in-stone limit, private files will be limited to whatever your user is allotted, although I'll likely let trusted users request more storage. One day, I really want to allow 2GB or even up to 8GB file shares for free, publicly, but I don't have infinite money and even if I did, I need to do this *without* crashing everything or completely breaking legacy device support.
+<br><br>
+I am so insistent on legacy devices because many of our users are unironically stuck on DSi/Wii/3DS/Wii U/PS Vita/PS3/Xbox 360, ancient mobile/desktop devices, or even just use niche setups that cannot handle modern formats. And, since a lot of the steps to design a website without forced JS on Tor/I2P are similar or even the same as designing a website to work on these legacy devices, I have zero incentive to *not* do so.
+<br><br>
+Regarding hosting, the mini PC boots up and works. I am now down to a singular screw being the reason I can't get my WiFi card working, but that'll be solved soon I'm sure. Offline, I have still messed around with Proxmox on the i7-6700 w/ 8GB DDR4 system. If necessary, I'll get 64GB DDR4.
+<br><br>
+I may have mentioned this, but if not, we had gigabit but that was on MySpectrum which actually blocks hosting websites. We have StarLink now, which doesn't block hosting to my knowledge, but we're limited to 200 megabit there. My idea for the auto-scrolling feed is that, by default, clusters of thumbnails will be given per day per page, but I'll have to mess around with a system that can scale up to, say, 5000 users, without breaking. Guests will be able to scroll too, hence this is something to legitimately consider, even if a lot of it will be bots.
+<br><br>
+Also, thumbnails will have alt-text which can be set by the original poster, but will otherwise just be the title. Therefore, in the worst case, I'll just have no thumbnails and go back to my original idea temporarily of separate pages for media types.
+<br><br>
+I would like to note too, these changes will not affect other features for the most part, although it may change how they are implemented. Since it will just be a simpler social site, the Forum and Blog are combined into one. From there, Polls will just be a feature of posts, rather than having a dedicated section. Embedding posts off-site will become a lot easier once I have that developed too. Also, rather than needing dedicated files/folders stuff, I'll be able to just treat it similar to other sites where you can privatize, publicize, or have an unlisted post regardless of type. Of course, there will likely be *some* sorting mechanism anyways, but still. Also, idk how I'll handle groups yet, since I do want group messaging/calling, but there isn't a clean way to add on groups on top of the other features, yet.
+<br><br>
+HAIL VENITHIA!
+<br><br>
+-- Digital Cheese, Jun 24 2026 A.D. At 08:45 CDT
+</article>
+<footer>2026, Greater Venith<br>
+All Rights Reserved For Their Respective Owners.</footer>
+</body>
+</html>
